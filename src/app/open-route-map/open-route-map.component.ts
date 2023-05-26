@@ -8,7 +8,7 @@ import * as L from 'leaflet';
 export class MapComponent implements OnInit {
 
   private map: L.Map;
-  private centroid: L.LatLngExpression = [42.3601, -71.0589]; //
+  private centroid: L.LatLngExpression =[40.0427345, 32.9041236]; //
 
   private initMap(): void {
     this.map = L.map('map', {
